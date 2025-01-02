@@ -1,13 +1,23 @@
-import { DM_Mono } from "next/font/google";
+"use client";
 
-const dmMonoLight = DM_Mono({ weight: '300', subsets: ['latin'] })
-const dmMonoBold = DM_Mono({ weight: '500', subsets: ['latin'] })
+import SectionCard from "@/components/SectionCard";
+import { Animator } from "@arwes/react";
 
 export default function Home() {
   return (
     <>
-      <h1 className={ dmMonoBold.className }>Hello World!</h1>
-      <p className={ dmMonoLight.className }>Nice to meet you!</p>
+      <div className="w-full h-screen">
+        <Animator active combine manager="stagger" duration={{ stagger: 0.25 }}>
+          <div className="p-10 h-full grid grid-cols-3 grid-rows-2 gap-10">
+            <SectionCard text="Careers" image="/assets/icons/career.png" />
+            <SectionCard text="Educations" image="/assets/icons/education.png" />
+            <SectionCard text="Interests" image="/assets/icons/interest.png" />
+            <SectionCard text="Participations" image="/assets/icons/competition.png" />
+            <SectionCard text="Personal" image="/assets/icons/personal.png" />
+            <SectionCard text="Skills" image="/assets/icons/skill.png" />
+          </div>
+        </Animator>
+      </div>
     </>
   )
 }

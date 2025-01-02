@@ -6,14 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel": "vercel --prod"
   },
   "dependencies": {
-    "@arwes/react": "^1.0.0-next.24111501",
-    "next": "15.1.2",
+    "@arwes/react": "^1.0.0-alpha.23",
+    "@types/howler": "^2.2.12",
+    "glitched-writer": "^2.0.29",
+    "howler": "^2.2.4",
+    "motion": "^10.18.0",
+    "next": "^15.1.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss-animated": "^1.1.2"
+    "tailwindcss-animated": "^1.1.2",
+    "vercel": "^39.2.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-frame {
+  @apply relative;
+  --arwes-frames-bg-color: #DEE2E620;
+  --arwes-frames-line-color: #DEE2E6;
+  --arwes-frames-deco-color: #DEE2E6;
+}
+
+.section-frame:hover {
+  --arwes-frames-bg-color: #DEE2E650;
+  --arwes-frames-line-color: #DEE2E6;
+  --arwes-frames-deco-color: #DEE2E6;
+}

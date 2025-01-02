@@ -1,4 +1,7 @@
 import "./globals.css";
+import { DM_Mono } from "next/font/google";
+
+const dmMono = DM_Mono({ weight: '300', subsets: ['latin'] })
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
@@ -10,7 +13,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link rel="icon" href="../assets/images/fury_dark.png" type="image/x-icon" />
         <title>ME-Website-II</title>
       </head>
-      <body className="antialiased bg-black text-white">
+      <body className={`antialiased bg-black text-white ${ dmMono.className }`}>
         { children }
       </body>
     </html>
