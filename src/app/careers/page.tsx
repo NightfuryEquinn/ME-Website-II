@@ -1,13 +1,25 @@
-import { DM_Mono } from "next/font/google";
+"use client";
 
-const dmMonoLight = DM_Mono({ weight: '300', subsets: ['latin'] })
-const dmMonoBold = DM_Mono({ weight: '500', subsets: ['latin'] })
+import DetailCard from "@/components/DetailCard";
+import { Animator } from "@arwes/react";
+import { careers, CareersProps } from "../../../data/careers";
+import BackButton from "@/components/BackButton";
 
-export default function Home() {
+export default function CareerMain() {
   return (
     <>
-      <h1 className={ dmMonoBold.className }>Hello World!</h1>
-      <p className={ dmMonoLight.className }>Nice to meet you!</p>
+      <Animator active combine manager="stagger" duration={{ stagger: 0.125 }}>
+        <div className="p-5 lg:p-10">
+          <BackButton />
+          <div className="h-full grid gap-7 lg:grid-cols-2 2xl:grid-cols-3">
+            {
+              careers.map(( career: CareersProps ) => (
+                <DetailCard key={ career.id } {...career} />
+              ))
+            }
+          </div>
+        </div>
+      </Animator>
     </>
   )
 }

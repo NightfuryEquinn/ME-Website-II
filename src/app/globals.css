@@ -14,3 +14,37 @@
   --arwes-frames-line-color: #DEE2E6;
   --arwes-frames-deco-color: #DEE2E6;
 }
+
+.exit-frame {
+  @apply relative;
+  --arwes-frames-bg-color: #E13A6A20;
+  --arwes-frames-line-color: #E13A6A;
+  --arwes-frames-deco-color: #E13A6A;
+}
+
+.exit-frame:hover {
+  --arwes-frames-bg-color: #E13A6A50;
+  --arwes-frames-line-color: #E13A6A;
+  --arwes-frames-deco-color: #E13A6A;
+}
+
+.logo-header {
+  @apply relative;
+  --arwes-frames-bg-color: #4361EE20;
+  --arwes-frames-line-color: #4361EE;
+  --arwes-frames-deco-color: #4361EE;
+}
+
+.logo-frame {
+  @apply relative;
+  --arwes-frames-bg-color: #4361EE20;
+  --arwes-frames-line-color: #4361EE;
+  --arwes-frames-deco-color: #4361EE;
+}
+
+.detail-frame {
+  @apply relative;
+  --arwes-frames-bg-color: #03274c20;
+  --arwes-frames-line-color: #03274c;
+  --arwes-frames-deco-color: #03274c;
+}
