@@ -48,3 +48,10 @@
   --arwes-frames-line-color: #03274c;
   --arwes-frames-deco-color: #03274c;
 }
+
+.skill-frame {
+  @apply relative;
+  --arwes-frames-bg-color: #DEE2E620;
+  --arwes-frames-line-color: #DEE2E6;
+  --arwes-frames-deco-color: #DEE2E6;
+}

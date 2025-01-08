@@ -5,7 +5,7 @@ import { Howl } from 'howler';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
-interface SectionCardProps {
+type SectionCardProps = {
   text: string,
   image: string
 }
@@ -27,16 +27,16 @@ export default function SectionCard({ text, image }: SectionCardProps ) {
 
   return (
     <>
-      <Animator>
+      <Animator active duration={{ enter: 1.0, exit: 1.0 }}>
         <button onMouseEnter={ bleepOnHover } onClick={ bleepOnClick } className="relative p-2 animate-fade">
           <FrameKranox className='section-frame' />
-          <div className="relative -z-10 px-7 py-5 flex lg:flex-col gap-3 items-center justify-around md:justify-between lg:justify-center">
-            <Image width={ 125 } height={ 125 } src={ image } alt={ text } />
+          <div className="relative -z-10 p-7 flex md:flex-col gap-3 items-center justify-around md:justify-center">
+            <Image className='animate-fade animate-delay-200' width={ 125 } height={ 125 } src={ image } alt={ text } />
             <hr />
             <Text 
               as="p" 
               className="uppercase text-xl tracking-widest"
-              manager="sequence"
+              manager="decipher"
               fixed
             >
               { text }

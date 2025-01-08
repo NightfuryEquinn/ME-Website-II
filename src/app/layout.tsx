@@ -1,5 +1,5 @@
-import "./globals.css";
 import { DM_Mono } from "next/font/google";
+import "./globals.css";
 
 const dmMono = DM_Mono({ weight: '300', subsets: ['latin'] })
 

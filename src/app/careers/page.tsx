@@ -1,9 +1,9 @@
 "use client";
 
+import BackButton from "@/components/BackButton";
 import DetailCard from "@/components/DetailCard";
 import { Animator } from "@arwes/react";
 import { careers, CareersProps } from "../../../data/careers";
-import BackButton from "@/components/BackButton";
 
 export default function CareerMain() {
   return (
