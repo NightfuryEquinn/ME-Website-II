@@ -14,7 +14,7 @@ export default function CareerMain() {
           <div className="h-full grid gap-7 lg:grid-cols-2 2xl:grid-cols-3">
             {
               careers.map(( career: CareersProps ) => (
-                <DetailCard key={ career.id } {...career} />
+                <DetailCard key={ career.id } { ...career } />
               ))
             }
           </div>

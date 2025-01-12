@@ -1,5 +1,3 @@
-"use client";
-
 import { Animator, FrameKranox, Text } from '@arwes/react';
 import { Howl } from 'howler';
 import Image from 'next/image';

@@ -2,8 +2,11 @@ import { Animator, FrameUnderline, Text } from "@arwes/react";
 import { Howl } from 'howler';
 import { useRouter } from "next/navigation";
 import { CareersProps } from "../../data/careers";
+import { EducationsProps } from "../../data/educations";
 
-export default function DetailCard(detail: CareersProps) {
+export default function DetailCard( 
+  detail: Partial<CareersProps> & Partial<EducationsProps> 
+) {
   const router = useRouter()
 
   const hoverSFX = new Howl({ src: [ "../assets/audio/hover.mp3" ], volume: 0.25, rate: 2.0 })
@@ -15,7 +18,14 @@ export default function DetailCard(detail: CareersProps) {
 
   const bleepOnClick = () => {
     clickSFX.play()
-    router.push(`/careers/${ detail.id }`)
+
+    if ( detail.company ) {
+      router.push( `/careers/${ detail.id }` )
+    }
+
+    if ( detail.qualification ) {
+      router.push( `/educations/${ detail.id }` )
+    }
   }
 
   return (
@@ -30,7 +40,8 @@ export default function DetailCard(detail: CareersProps) {
               className="-z-10 text-left uppercase text-xl tracking-widest"
               fixed
             >
-              Archive { detail.id } - { detail.company }
+              { detail.company && `Archive ${ detail.id } - ${ detail.company }` }
+              { detail.qualification && `Chronicle ${ detail.id } - ${ detail.title }` }
             </Text>
           </div>
         </button>

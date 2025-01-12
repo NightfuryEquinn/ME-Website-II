@@ -19,7 +19,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss-animated": "^1.1.2",
-    "vercel": "^39.2.2"
+    "vercel": "^39.2.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
