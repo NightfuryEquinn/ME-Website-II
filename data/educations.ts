@@ -82,13 +82,13 @@ export const educations: EducationsProps[] = [
   },
   {
     id: 2,
-    title: "Asia Pacific University of Technology and Innovation (APU / APIIT)",
+    title: "Asia Pacific University (APU)",
     qualification: "Diploma in Information and Communication Technology specialism in Software Engineering",
     location: "Kuala Lumpur, Malaysia",
     grade: "CGPA 3.48",
     start: "May 2020",
     end: "Jun 2022",
-    logo: "apu.png",
+    logo: "apu.jpeg",
     cocurriculum: [],
     courses: [
       {
@@ -179,13 +179,13 @@ export const educations: EducationsProps[] = [
   },
   {
     id: 3,
-    title: "Asia Pacific University of Technology and Innovation (APU / APIIT)",
+    title: "Asia Pacific University (APU)",
     qualification: "Bachelor's Degree in Information Technology specialism in Mobile Technology",
     location: "Kuala Lumpur, Malaysia",
     grade: "CGPA 3.68",
     start: "Nov 2022",
     end: "Nov 2024",
-    logo: "apu.png",
+    logo: "apu.jpeg",
     cocurriculum: [
       {
         id: 1,

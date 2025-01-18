@@ -37,7 +37,7 @@ export default function CareerDetails() {
                 </Animator>
 
                 <Animator>
-                  <div className="relative">
+                  <div className="relative z-10">
                     <FrameNero className="logo-frame" />
                     <Image className="p-5 mx-auto animate-fade animate-delay-200" width={ 300 } height={ 300 } src={ `/assets/images/${ theCareer?.logo }` } alt={ `${ theCareer?.company } Logo` } />
                   </div>
@@ -107,11 +107,11 @@ export default function CareerDetails() {
                       manager="sequence"
                       fixed
                     >
-                      Location: { theCareer?.location }
+                      <span className="text-pale-pink">Location: </span>{ theCareer?.location }
                     </Text>
                   </Animator>
 
-                  <hr className="bg-white mx-10 my-2 border-1 animate-fade animate-delay-700" />
+                  <hr className="border-deep-blue mx-10 my-2 border-1 animate-fade animate-delay-700" />
 
                   <Animator>
                     <Text
@@ -120,7 +120,7 @@ export default function CareerDetails() {
                       manager="sequence"
                       fixed
                     >
-                      Position: { theCareer?.title }
+                      <span className="text-pale-pink">Position: </span>{ theCareer?.title }
                     </Text>
                   </Animator>
 
@@ -148,7 +148,7 @@ export default function CareerDetails() {
                     <div className="relative flex flex-row flex-wrap gap-3">
                       {
                         theCareer?.skills.map(( skill: CareersSkillProps ) => (
-                          <SkillBlock key={ skill.id } {...skill} />
+                          <SkillBlock key={ skill.id } { ...skill } />
                         ))
                       }
                     </div>
