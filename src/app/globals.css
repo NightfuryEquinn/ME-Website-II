@@ -64,7 +64,6 @@
 }
 
 .left-right-frame:hover {
-  @apply relative;
   --arwes-frames-bg-color: #7209B750;
   --arwes-frames-line-color: #7209B7;
   --arwes-frames-deco-color: #7209B7;
@@ -72,14 +71,13 @@
 
 .accordian-frame {
   @apply relative;
-  --arwes-frames-bg-color: #4D004F20;
-  --arwes-frames-line-color: #4D004F;
-  --arwes-frames-deco-color: #4D004F;
+  --arwes-frames-bg-color: #03274c20;
+  --arwes-frames-line-color: #03274c;
+  --arwes-frames-deco-color: #03274c;
 }
 
 .accordian-frame:hover {
-  @apply relative;
-  --arwes-frames-bg-color: #4D004F50;
-  --arwes-frames-line-color: #4D004F;
-  --arwes-frames-deco-color: #4D004F;
+  --arwes-frames-bg-color: #03274c50;
+  --arwes-frames-line-color: #03274c;
+  --arwes-frames-deco-color: #03274c;
 }
