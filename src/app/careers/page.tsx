@@ -11,7 +11,7 @@ export default function CareerMain() {
       <Animator active combine manager="stagger" duration={{ stagger: 0.125 }}>
         <div className="p-5 lg:p-10">
           <BackButton />
-          <div className="h-full grid gap-7 lg:grid-cols-2 2xl:grid-cols-3">
+          <div className="h-full grid gap-x-8 gap-y-4 lg:grid-cols-2 2xl:grid-cols-3">
             {
               careers.map(( career: CareersProps ) => (
                 <DetailCard key={ career.id } { ...career } />

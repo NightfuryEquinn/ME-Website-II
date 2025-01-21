@@ -101,27 +101,40 @@ export default function CareerDetails() {
                   </div>
 
                   <Animator>
-                    <Text
-                      as="p" 
-                      className="tracking-widest"
-                      manager="sequence"
-                      fixed
-                    >
-                      <span className="text-pale-pink">Location: </span>{ theCareer?.location }
-                    </Text>
+                    <div className="flex flex-row gap-4 items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="animate-fade min-w-6 text-pale-pink">
+                        <path fill="currentColor" d="M12 19.35q3.05-2.8 4.525-5.087T18 10.2q0-2.725-1.737-4.462T12 4T7.738 5.738T6 10.2q0 1.775 1.475 4.063T12 19.35m0 1.975q-.35 0-.7-.125t-.625-.375Q9.05 19.325 7.8 17.9t-2.087-2.762t-1.275-2.575T4 10.2q0-3.75 2.413-5.975T12 2t5.588 2.225T20 10.2q0 1.125-.437 2.363t-1.275 2.575T16.2 17.9t-2.875 2.925q-.275.25-.625.375t-.7.125M12 12q.825 0 1.413-.587T14 10t-.587-1.412T12 8t-1.412.588T10 10t.588 1.413T12 12"/>
+                      </svg>
+
+                      <Text
+                        as="p" 
+                        className="tracking-widest"
+                        manager="sequence"
+                        fixed
+                      >
+                        <span className="text-pale-pink">Location: </span>{ theCareer?.location }
+                      </Text>
+                    </div>
+                    
                   </Animator>
 
                   <hr className="border-deep-blue mx-10 my-2 border-1 animate-fade animate-delay-700" />
 
                   <Animator>
-                    <Text
-                      as="p" 
-                      className="tracking-widest"
-                      manager="sequence"
-                      fixed
-                    >
-                      <span className="text-pale-pink">Position: </span>{ theCareer?.title }
-                    </Text>
+                    <div className="flex flex-row gap-4 items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="animate-fade min-w-6 text-pale-pink">
+                        <path fill="currentColor" d="M4 21q-.825 0-1.412-.587T2 19V8q0-.825.588-1.412T4 6h4V4q0-.825.588-1.412T10 2h4q.825 0 1.413.588T16 4v2h4q.825 0 1.413.588T22 8v11q0 .825-.587 1.413T20 21zm6-15h4V4h-4zm10 9h-5v1q0 .425-.288.713T14 17h-4q-.425 0-.712-.288T9 16v-1H4v4h16zm-9 0h2v-2h-2zm-7-2h5v-1q0-.425.288-.712T10 11h4q.425 0 .713.288T15 12v1h5V8H4zm8 1"/>
+                      </svg>
+
+                      <Text
+                        as="p" 
+                        className="tracking-widest"
+                        manager="sequence"
+                        fixed
+                      >
+                        <span className="text-pale-pink">Position: </span>{ theCareer?.title }
+                      </Text>
+                    </div>
                   </Animator>
 
                   <hr className="my-5 border-0" />

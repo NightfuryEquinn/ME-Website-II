@@ -1,11 +1,13 @@
-import { Animator, FrameUnderline, Text } from "@arwes/react";
+import { Animator, FrameCorners, FrameKranox, FrameNefrex, FrameUnderline, Text } from "@arwes/react";
 import { Howl } from 'howler';
 import { useRouter } from "next/navigation";
 import { CareersProps } from "../../data/careers";
 import { EducationsProps } from "../../data/educations";
+import { EventsProps } from "../../data/events";
+import { AchievementsProps } from "../../data/achievements";
 
 export default function DetailCard( 
-  detail: Partial<CareersProps> & Partial<EducationsProps> 
+  detail: Partial<CareersProps> & Partial<EducationsProps> & Partial<EventsProps> & Partial<AchievementsProps>
 ) {
   const router = useRouter()
 
@@ -26,22 +28,52 @@ export default function DetailCard(
     if ( detail.qualification ) {
       router.push( `/educations/${ detail.id }` )
     }
+
+    if ( detail.speaker ) {
+      router.push( `/events/${ detail.id }` )
+    }
+
+    if ( detail.award ) {
+      router.push( `/events/achievements/${ detail.id }` )
+    }
   }
 
   return (
     <>
       <Animator active duration={{ enter: 1.0, exit: 1.0 }}>
         <button onMouseEnter={ bleepOnHover } onClick={ bleepOnClick } className="relative p-2 animate-fade">
-          <FrameUnderline className="section-frame" />
-          <div className="px-7 py-5">
+          <FrameNefrex className="section-frame" />
+          <div className="px-4 py-2">
             <Text
               as="p"
               manager="sequence"
-              className="-z-10 text-left uppercase text-xl tracking-widest"
+              className="-z-10 text-left text-xl tracking-wide"
               fixed
             >
-              { detail.company && `Archive ${ detail.id } - ${ detail.company }` }
-              { detail.qualification && `Chronicle ${ detail.id } - ${ detail.title }` }
+              { detail.company && 
+                <>
+                  <span className="text-sky-blue">{ `Archive ${ detail.id } ` }</span>
+                  - { detail.company }
+                </>
+              }
+              { detail.qualification && 
+                <>
+                  <span className="text-sky-blue">{ `Chronicle ${ detail.id } ` }</span>
+                  - { detail.title }
+                </>
+              }
+              { detail.speaker && 
+                <>
+                  <span className="text-sky-blue">{ `Anomaly ${ detail.id } ` }</span>
+                  - { detail.title }
+                </>
+              }
+              { detail.award &&
+                <>
+                  <span className="text-sky-blue">{ `Singularity ${ detail.id } ` }</span>
+                  - { detail.title }
+                </>
+              }
             </Text>
           </div>
         </button>

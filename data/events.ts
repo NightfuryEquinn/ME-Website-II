@@ -4,6 +4,7 @@ export type EventsProps = {
   id: number,
   title: string,
   speaker: string,
+  date: string,
   images: string[],
   description: string,
   members: NameProps[]
@@ -14,6 +15,7 @@ export const events: EventsProps[] = [
     id: 1,
     title: "Git-GitHub Workshop",
     speaker: "Yip Zi Xian, Me Myself",
+    date: "20 June 2023",
     images: [
       "git_1.jpeg",
       "git_2.jpeg",
@@ -83,6 +85,7 @@ export const events: EventsProps[] = [
     id: 2,
     title: "How to Land your First Job in a Startup?",
     speaker: "Mr. Ugendran Letchimenan",
+    date: "18 July 2023",
     images: [
       "cradle_1.jpeg",
       "cradle_2.jpeg",
@@ -129,29 +132,13 @@ export const events: EventsProps[] = [
     id: 3,
     title: "Asia Pacific University Final Year Project Showcase",
     speaker: "Yip Zi Xian, Me Myself",
+    date: "15 January 2025",
     images: [
       "fyp_1.jpeg",
       "fyp_2.jpeg",
       "fyp_3.jpeg",
     ],
     description: "An opportunity to gain more exposure in presenting my ideas to industry leaders and collecting their feedbacks to further improve on my project. Extending my thanks to my lecturers and supervisors, Mr. Amad Arshad and Ms. Khurshid who helped me along the way.",
-    members: [
-      {
-        id: 1,
-        name: "Yip Zi Xian"
-      },
-      {
-        id: 2,
-        name: "Yap Jiann Yang"
-      },
-      {
-        id: 3,
-        name: "Chong Dic Sum"
-      },
-      {
-        id: 4,
-        name: "Goh Wai Kuen"
-      }
-    ]
+    members: []
   }
 ]

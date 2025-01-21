@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 .section-frame {
   @apply relative;
   --arwes-frames-bg-color: #DEE2E620;
@@ -49,6 +60,13 @@
   --arwes-frames-deco-color: #03274c;
 }
 
+.detail-frame-alt {
+  @apply relative;
+  --arwes-frames-bg-color: #C1115A20;
+  --arwes-frames-line-color: #C1115A;
+  --arwes-frames-deco-color: #C1115A;
+}
+
 .skill-frame {
   @apply relative;
   --arwes-frames-bg-color: #DEE2E620;
@@ -58,15 +76,15 @@
 
 .left-right-frame {
   @apply relative;
-  --arwes-frames-bg-color: #7209B720;
-  --arwes-frames-line-color: #7209B7;
-  --arwes-frames-deco-color: #7209B7;
+  --arwes-frames-bg-color: #4361EE20;
+  --arwes-frames-line-color: #4361EE;
+  --arwes-frames-deco-color: #4361EE;
 }
 
 .left-right-frame:hover {
-  --arwes-frames-bg-color: #7209B750;
-  --arwes-frames-line-color: #7209B7;
-  --arwes-frames-deco-color: #7209B7;
+  --arwes-frames-bg-color: #4361EE50;
+  --arwes-frames-line-color: #4361EE;
+  --arwes-frames-deco-color: #4361EE;
 }
 
 .accordian-frame {
@@ -80,4 +98,11 @@
   --arwes-frames-bg-color: #03274c50;
   --arwes-frames-line-color: #03274c;
   --arwes-frames-deco-color: #03274c;
+}
+
+.main-divider-frame {
+  @apply relative;
+  --arwes-frames-bg-color: #3A0CA320;
+  --arwes-frames-line-color: #3A0CA3;
+  --arwes-frames-deco-color: #3A0CA3;
 }

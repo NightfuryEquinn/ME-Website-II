@@ -33,7 +33,7 @@ export default function ImageSlider( images: string[] ) {
 
   return (
     <>
-      <div className="flex flex-row gap-5 items-s">
+      <div className="animate-fade flex flex-row gap-5 items-s">
         <div className="max-h-[400px] max-w-[400px]">
           <Image width={ 1000 } height={ 1000 } src={ `/assets/images/${ images[ currentIndex ] }` } alt={ `${ images[ currentIndex ] }` } />
         </div>
