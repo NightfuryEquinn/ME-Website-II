@@ -12,6 +12,7 @@ export default function EventsMain() {
     <Animator active combine manager="stagger" duration={{ stagger: 0.125 }}>
       <div className="p-5 lg:p-10">
         <BackButton />
+        
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-4">
             <MainDivider text="Event Anomalies" />

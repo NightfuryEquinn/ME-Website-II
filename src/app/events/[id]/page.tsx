@@ -17,7 +17,7 @@ export default function EventsDetails() {
       <div className="p-5 lg:p-10">
         <BackButton />
 
-        <div className="h-full ">
+        <div className="h-full">
           <div className="flex flex-col lg:grid lg:grid-cols-3 gap-5 lg:gap-8">
             <div className="col-span-1">
               <Animator>
@@ -76,7 +76,6 @@ export default function EventsDetails() {
                         <span className="text-pale-pink">Date: </span>{ theEvent?.date }
                       </Text>
                     </div>
-                    
                   </Animator>
 
                   <Animator>

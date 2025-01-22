@@ -2,6 +2,7 @@ export type AchievementsProps = {
   id: number,
   title: string,
   award: string,
+  icon: string,
   issuedBy: NameProps[],
   under: string,
   date: string,
@@ -19,6 +20,7 @@ export const achievements: AchievementsProps[] = [
     id: 1,
     title: "Largest Participation in a 'Zongzi' Making Event",
     award: "Certificate of Participation",
+    icon: "dumpling.png",
     issuedBy: [
       {
         id: 1,
@@ -39,6 +41,7 @@ export const achievements: AchievementsProps[] = [
     id: 2,
     title: "Longest 'Zhuan Shu Hui Chun' Calligraphy",
     award: "Certificate of Participation",
+    icon: "calligraphy.png",
     issuedBy: [
       {
         id: 1,
@@ -67,6 +70,7 @@ export const achievements: AchievementsProps[] = [
     id: 3,
     title: "Math Carnival 2020",
     award: "Certificate of Participation",
+    icon: "carnival.png",
     issuedBy: [
       {
         id: 1,
@@ -107,6 +111,7 @@ export const achievements: AchievementsProps[] = [
     id: 4,
     title: "PyPro Competition",
     award: "Certificate of Participation",
+    icon: "python.png",
     issuedBy: [
       {
         id: 1,
@@ -126,6 +131,7 @@ export const achievements: AchievementsProps[] = [
     id: 5,
     title: "Block Us Competition",
     award: "Certificate of Participation",
+    icon: "blokus.png",
     issuedBy: [
       {
         id: 1,
@@ -141,6 +147,7 @@ export const achievements: AchievementsProps[] = [
     id: 6,
     title: "AWS DeepRacer League",
     award: "Certificate of Participation",
+    icon: "aws_deepracer.png",
     issuedBy: [
       {
         id: 1,
@@ -169,6 +176,7 @@ export const achievements: AchievementsProps[] = [
     id: 7,
     title: "Hilti IT Competition 2024",
     award: "Certificate of Achievement, Semi-finalist",
+    icon: "hilti_it_competition.png",
     issuedBy: [
       {
         id: 1,

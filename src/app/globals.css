@@ -106,3 +106,10 @@
   --arwes-frames-line-color: #3A0CA3;
   --arwes-frames-deco-color: #3A0CA3;
 }
+
+.cert-frame {
+  @apply relative;
+  --arwes-frames-bg-color: #E13A6A20;
+  --arwes-frames-line-color: #E13A6A;
+  --arwes-frames-deco-color: #E13A6A;
+}
