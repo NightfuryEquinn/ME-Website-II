@@ -1,10 +1,10 @@
-import { Animator, FrameCorners, FrameKranox, FrameNefrex, FrameUnderline, Text } from "@arwes/react";
+import { Animator, FrameNefrex, Text } from "@arwes/react";
 import { Howl } from 'howler';
 import { useRouter } from "next/navigation";
+import { AchievementsProps } from "../../data/achievements";
 import { CareersProps } from "../../data/careers";
 import { EducationsProps } from "../../data/educations";
 import { EventsProps } from "../../data/events";
-import { AchievementsProps } from "../../data/achievements";
 
 export default function DetailCard( 
   detail: Partial<CareersProps> & Partial<EducationsProps> & Partial<EventsProps> & Partial<AchievementsProps>

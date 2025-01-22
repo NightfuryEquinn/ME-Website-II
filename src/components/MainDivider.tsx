@@ -1,6 +1,10 @@
 import { Animator, FrameLines, Text } from "@arwes/react";
 
-export default function MainDivider({ text }: any ) {
+type MainDividerProps = {
+  text: string
+}
+
+export default function MainDivider({ text }: MainDividerProps ) {
   return <>
     <Animator>
       <div className="relative px-6 py-4 w-full">
