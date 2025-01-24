@@ -13,7 +13,7 @@ export default function Home() {
             <SectionCard text="Educations" image="/assets/icons/educations.png" />
             <SectionCard text="Interests" image="/assets/icons/interests.png" />
             <SectionCard text="Events" image="/assets/icons/events.png" />
-            <SectionCard text="Personal" image="/assets/icons/personal.png" />
+            <SectionCard text="Projects" image="/assets/icons/projects.png" />
             <SectionCard text="Skills" image="/assets/icons/skills.png" />
           </div>
         </Animator>
