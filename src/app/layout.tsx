@@ -1,9 +1,9 @@
 "use client";
 
-import { DM_Mono } from "next/font/google";
+import { Tomorrow } from "next/font/google";
 import "./globals.css";
 
-const dmMono = DM_Mono({ weight: '300', subsets: ['latin'] })
+const dmMono = Tomorrow({ weight: '300', subsets: ['latin'] })
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {  
   return (

@@ -188,7 +188,7 @@ export default function CareerDetails() {
                   <Animator>
                     <Text
                       as="p" 
-                      className="text-sm leading-6"
+                      className="text-sm leading-6 tracking-wider"
                       manager="sequence"
                       fixed
                     >

@@ -47,7 +47,7 @@ export default function DetailCard(
             <Text
               as="p"
               manager="sequence"
-              className="-z-10 text-left text-xl tracking-wide"
+              className="-z-10 text-left text-xl tracking-wider"
               fixed
             >
               { detail.company && 
