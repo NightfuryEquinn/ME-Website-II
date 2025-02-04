@@ -11,7 +11,7 @@ export const projects: ProjectsProps[] = [
   {
     id: 1,
     title: "ME-Website",
-    logo: "",
+    logo: "fury_dark.png",
     description: "This project is this website. Apparently. My portfolio website. Futuristic and minimalistic approach, I guess.",
     languages: [
       "React JS Typescript",
@@ -24,7 +24,7 @@ export const projects: ProjectsProps[] = [
   {
     id: 2,
     title: "Raw2Plate: Fuel+",
-    logo: "",
+    logo: "bao.png",
     description: "I proudly present, my final year project in degree at Asia Pacific University. An intelligent recipes finder with calories tracker and grocery shopping. Documentation are available upon request.",
     languages: [
       "React Native",
@@ -35,7 +35,7 @@ export const projects: ProjectsProps[] = [
   {
     id: 3,
     title: "Where's my Ingredients?",
-    logo: "",
+    logo: "ingredients.png",
     description: "I mean we have no idea why our Mobile Technology degree included a game development module, in C# with Unity. It was a totally different and confused course structure for me but we managed to pull it off in time, creating a 2D platformer (but very user-unfriendly).",
     languages: [
       "Unity C#"
@@ -45,7 +45,7 @@ export const projects: ProjectsProps[] = [
   {
     id: 4,
     title: "Findrobe",
-    logo: "",
+    logo: "findrobe.png",
     description: "A lifestyle social application created with Firebase. Manage your wardrobe easily and pick n' match daily outfits without having the hassle of putting it on and taking it down again and again and again ... Admin interface are also available for data analysis and reporting purposes visualised in graphs.",
     languages: [
       "Flutter"
@@ -55,7 +55,7 @@ export const projects: ProjectsProps[] = [
   {
     id: 5,
     title: "HaulEase",
-    logo: "",
+    logo: "haulease.png",
     description: "A shipment delivery system for local and international clients. Users are required to register and sign in before accessing consumers' functions while admins can monitor and manage progress of all shipments.",
     languages: [
       "Kotlin",
@@ -66,7 +66,7 @@ export const projects: ProjectsProps[] = [
   {
     id: 6,
     title: "Chateau du Nox",
-    logo: "",
+    logo: "chateau.png",
     description: "The first-and-only iOS application I created for my university assignment in Mac lab because I, of course, don't have a Mac (can't afford for now). A vineyard delivery system for consumers only.",
     languages: [
       "Swift"

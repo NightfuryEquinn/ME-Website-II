@@ -1,7 +1,7 @@
 export enum SkillCategory {
   technical = "Technical",
-  sports = "Sports & Hobbies",
-  others = "Others"
+  recreation = "Recreation",
+  others = "Other"
 }
 
 export type SkillsProps = {
@@ -69,26 +69,26 @@ export const skills: SkillsProps[] = [
   {
     id: 12,
     title: "Archery",
-    category: SkillCategory.sports
+    category: SkillCategory.recreation
   },
   {
     id: 13,
     title: "Taekwondo",
-    category: SkillCategory.sports
+    category: SkillCategory.recreation
   },
   {
     id: 14,
     title: "Badminton",
-    category: SkillCategory.sports
+    category: SkillCategory.recreation
   },
   {
     id: 15,
     title: "Bassoon",
-    category: SkillCategory.sports
+    category: SkillCategory.recreation
   },
   {
     id: 16,
     title: "Stargazing",
-    category: SkillCategory.sports
+    category: SkillCategory.recreation
   },
 ]

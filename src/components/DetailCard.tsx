@@ -5,9 +5,10 @@ import { AchievementsProps } from "../../data/achievements";
 import { CareersProps } from "../../data/careers";
 import { EducationsProps } from "../../data/educations";
 import { EventsProps } from "../../data/events";
+import { ProjectsProps } from "../../data/projects";
 
 export default function DetailCard( 
-  detail: Partial<CareersProps> & Partial<EducationsProps> & Partial<EventsProps> & Partial<AchievementsProps>
+  detail: Partial<CareersProps> & Partial<EducationsProps> & Partial<EventsProps> & Partial<AchievementsProps> & Partial<ProjectsProps>
 ) {
   const router = useRouter()
 
@@ -35,6 +36,10 @@ export default function DetailCard(
 
     if ( detail.award ) {
       router.push( `/events/achievements/${ detail.id }` )
+    }
+
+    if ( detail.redirect ) {
+      router.push( `/projects/${ detail.id }` )
     }
   }
 
@@ -71,6 +76,12 @@ export default function DetailCard(
               { detail.award &&
                 <>
                   <span className="text-sky-blue">{ `Singularity ${ detail.id } ` }</span>
+                  - { detail.title }
+                </>
+              }
+              { detail.redirect &&
+                <>
+                  <span className="text-sky-blue">{ `Journal ${ detail.id } ` }</span>
                   - { detail.title }
                 </>
               }
