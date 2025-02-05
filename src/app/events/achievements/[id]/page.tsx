@@ -21,7 +21,7 @@ export default function AchievementsDetails() {
             <div className="flex flex-col gap-5">
               <Animator>
                 <div className="relative mb-5">
-                  <FrameHeader className="logo-header" contentLength={ 200 } decoWidth={ 5 } />
+                  <FrameHeader className="logo-frame" contentLength={ 200 } decoWidth={ 5 } />
                   <div className="relative -top-2">
                     <Text
                       as="p" 
@@ -117,7 +117,7 @@ export default function AchievementsDetails() {
                         <div className="lg:w-full flex flex-col gap-2">
                           <Animator>
                             <div className="mb-2 relative">
-                              <FrameHeader className="logo-header" contentLength={ 125 } decoWidth={ 5 } />
+                              <FrameHeader className="logo-frame" contentLength={ 125 } decoWidth={ 5 } />
                               <div className="relative -top-2">
                                 <Animator>
                                   <Text
@@ -150,7 +150,7 @@ export default function AchievementsDetails() {
                         <div className="lg:w-full flex flex-col gap-2">
                           <Animator>
                             <div className="mb-2 relative">
-                              <FrameHeader className="logo-header" contentLength={ 125 } decoWidth={ 5 } />
+                              <FrameHeader className="logo-frame" contentLength={ 125 } decoWidth={ 5 } />
                               <div className="relative -top-2">
                                 <Animator>
                                   <Text
@@ -185,7 +185,7 @@ export default function AchievementsDetails() {
                       
                       <Animator>
                         <div className="mt-8 mb-3 relative">
-                          <FrameHeader className="logo-header" contentLength={ 125 } decoWidth={ 5 } />
+                          <FrameHeader className="logo-frame" contentLength={ 125 } decoWidth={ 5 } />
                           <div className="relative -top-2">
                             <Animator>
                               <Text

@@ -23,7 +23,7 @@ export default function EventsDetails() {
               <div className="col-span-1">
                 <Animator>
                   <div className="relative mb-5">
-                    <FrameHeader className="logo-header" contentLength={ 150 } decoWidth={ 5 } />
+                    <FrameHeader className="logo-frame" contentLength={ 150 } decoWidth={ 5 } />
                     <div className="relative -top-2">
                       <Text
                         as="p" 
@@ -101,7 +101,7 @@ export default function EventsDetails() {
 
                   <Animator>
                     <div className="mb-2 relative">
-                      <FrameHeader className="logo-header" contentLength={ 125 } decoWidth={ 5 } />
+                      <FrameHeader className="logo-frame" contentLength={ 125 } decoWidth={ 5 } />
                       <div className="relative -top-2">
                         <Animator>
                           <Text
@@ -134,7 +134,7 @@ export default function EventsDetails() {
 
                   <Animator>
                     <div className="mb-2 relative">
-                      <FrameHeader className="logo-header" contentLength={ 125 } decoWidth={ 5 } />
+                      <FrameHeader className="logo-frame" contentLength={ 125 } decoWidth={ 5 } />
                       <div className="relative -top-2">
                         <Animator>
                           <Text

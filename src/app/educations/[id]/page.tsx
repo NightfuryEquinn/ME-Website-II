@@ -23,7 +23,7 @@ export default function EducationDetails() {
               <div className="col-span-1 flex flex-col gap-5">
                 <Animator>
                   <div className="relative">
-                    <FrameHeader className="logo-header" contentLength={ 200 } decoWidth={ 5 } />
+                    <FrameHeader className="logo-frame" contentLength={ 200 } decoWidth={ 5 } />
                     <div className="relative -top-2">
                       <Text
                         as="p" 
@@ -157,7 +157,7 @@ export default function EducationDetails() {
 
                   <Animator>
                     <div className="mb-2 relative">
-                      <FrameHeader className="logo-header" contentLength={ 125 } decoWidth={ 5 } />
+                      <FrameHeader className="logo-frame" contentLength={ 125 } decoWidth={ 5 } />
                       <div className="relative -top-2">
                         <Animator>
                           <Text
@@ -190,7 +190,7 @@ export default function EducationDetails() {
 
                   <Animator>
                     <div className="mb-2 relative">
-                      <FrameHeader className="logo-header" contentLength={ 125 } decoWidth={ 5 } />
+                      <FrameHeader className="logo-frame" contentLength={ 125 } decoWidth={ 5 } />
                       <div className="relative -top-2">
                         <Animator>
                           <Text
