@@ -10,16 +10,16 @@ export type ProjectsProps = {
 export const projects: ProjectsProps[] = [
   {
     id: 1,
-    title: "ME-Website",
-    logo: "fury_dark.png",
-    description: "This project is this website. Apparently. My portfolio website. Futuristic and minimalistic approach, I guess.",
+    title: "Star System",
+    logo: "star_system.png",
+    description: "To showcase some of my React Three Fiber skills and shaders. Kinda partially completed, but it can be better and more performance-optimized. There are much to learn for me, too ambitous to kick off with a huge project, yet I should be step-by-step in developing my portfolio. TypeScript is bad for portfolio, in my opinion.",
     languages: [
       "React JS Typescript",
       "React Three",
       "HTML CSS",
       "GLSL"
     ],
-    redirect: "https://me-website-ii.vercel.app"
+    redirect: "https://star-system.vercel.app"
   },
   {
     id: 2,
