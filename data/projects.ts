@@ -19,7 +19,7 @@ export const projects: ProjectsProps[] = [
       "HTML CSS",
       "GLSL"
     ],
-    redirect: "https://star-system.vercel.app"
+    redirect: "https://star-system-swart.vercel.app"
   },
   {
     id: 2,
