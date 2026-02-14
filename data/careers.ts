@@ -123,5 +123,77 @@ export const careers: CareersProps[] = [
       }
     ],
     description: "Adapting different roles and learning various skills like documentation, UI designing, full stack development on projects like Solarvest, Powervest, Nusa Kapital, Euroq Assistance etc. Briefly communicate and provide guidance with potential clients to promote in-house application - ConneXtion. Working on website with Angular Bootstrap and Angular Tailwind, mobile application with React Native, API and back-end development using .NET Core / C#. Handling tight deadlines and deliverables while communicating with colleagues to ensure that the website and mobile application are connected via the same API developed."
+  },
+  {
+    id: 4,
+    title: "JS Back End Developer",
+    company: "Studio 20 Sdn. Bhd.",
+    location: "Kuala Lumpur, Malaysia",
+    start: "February 2025",
+    end: "August 2025",
+    logo: "studio20.png",
+    skills: [
+      {
+        id: 1,
+        name: "Software Development"
+      },
+      {
+        id: 2,
+        name: "API Development"
+      },
+      {
+        id: 3,
+        name: "Web Development"
+      },
+      {
+        id: 4,
+        name: "Mobile Application Development"
+      },
+      {
+        id: 5,
+        name: "Git Github"
+      }
+    ],
+    description: "NestJS, PayloadCMS, Swagger API, Ionic Capacitor React Native, Expo, Vercel, WebRTC, Stripe, Docker, GitHub workflow, Kysely"
+  },
+  {
+    id: 5,
+    title: "Fullstack JS Developer",
+    company: "Studio 20 Sdn. Bhd.",
+    location: "Kuala Lumpur, Malaysia",
+    start: "September 2025",
+    end: "January 2026",
+    logo: "studio20.png",
+    skills: [
+      {
+        id: 1,
+        name: "Full-stack Development"
+      },
+      {
+        id: 2,
+        name: "Mobile Application Development"
+      },
+      {
+        id: 3,
+        name: "Web Development"
+      },
+      {
+        id: 4,
+        name: "Software Development"
+      },
+      {
+        id: 5,
+        name: "API Development"
+      },
+      {
+        id: 6,
+        name: "Communication"
+      },
+      {
+        id: 7,
+        name: "Git Github"
+      }
+    ],
+    description: "Leading two projects simultaneously and coordinating weekly SCRUM for team updates. Transitioning between different projects, adapting on multiple distinct frameworks. Developed RTC-Made-Simple package for real-time video conferencing and messaging. Collaborating with teams in projects like Trainee Companion, Maid Without Borders, Invicta Performance etc. Focus on mobile development using React Native Expo, Kotlin, Swift, and API development with Kysely, Docker, NestJS."
   }
 ]

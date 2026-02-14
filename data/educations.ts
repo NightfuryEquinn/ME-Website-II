@@ -307,5 +307,38 @@ export const educations: EducationsProps[] = [
     logo: "de_montfort.png",
     cocurriculum: [],
     courses: []
+  },
+  {
+    id: 5,
+    title: "University of Malaya",
+    qualification: "Master's Degree in Artificial Intelligence",
+    location: "Kuala Lumpur, Malaysia",
+    grade: "In-progress",
+    start: "September 2025",
+    end: "September 2026",
+    logo: "um.jpg",
+    cocurriculum: [],
+    courses: [
+      {
+        id: 1,
+        name: "Advanced Machine Learning"
+      },
+      {
+        id: 2,
+        name: "Research Methodology"
+      },
+      {
+        id: 3,
+        name: "Artificial Intelligence Technique"
+      },
+      {
+        id: 4,
+        name: "Computer Vision and Image Processing"
+      },
+      {
+        id: 5,
+        name: "Cognitive Computing"
+      }
+    ]
   }
 ]

@@ -34,5 +34,12 @@ export const certification: CertificationProps[] = [
     issuedBy: "Amazon Web Services (AWS)",
     issuedOn: "December 2024",
     expiredOn: "December 2027"
+  },
+  {
+    id: 5,
+    title: "Cambridge English Entry Level Certificate in ESOL International (Entry 2) Advanced",
+    issuedBy: "Cambridge University Press & Assessment English",
+    issuedOn: "December 2025",
+    expiredOn: "No Expiration"
   }
 ]

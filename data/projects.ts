@@ -72,5 +72,36 @@ export const projects: ProjectsProps[] = [
       "Swift"
     ],
     redirect: "https://github.com/NightfuryEquinn/Chateau-Du-Nox"
+  },
+  {
+    id: 7,
+    title: "WebRTC NPM Package",
+    logo: "webrtc.png",
+    description: "Me: I should just copy the WebRTC implementation from the previous project to this project, right? Since both of them are having the same features.\nSenior: You should just write a library for yourself. ¯\_(ツ)_/¯\nMe: 🤣 Fair enough.",
+    languages: [
+      "React Native",
+      "Typescript"
+    ],
+    redirect: "https://github.com/NightfuryEquinn/RTC-Made-Simple"
+  },
+  {
+    id: 8,
+    title: "Med-VQA-AML",
+    logo: "vqa-med.png",
+    description: "A medical visual question answering system leveraging deep learning architectures for automated medical image analysis and interpretation. As part of my master's degree assignment, this project implements both baseline models and proposed enhanced architectures to answer clinical questions about medical images. The system combines computer vision and natural language processing techniques to bridge the gap between visual medical data and textual diagnostic queries, aiming to assist healthcare professionals in diagnostic workflows. Evaluation metrics include accuracy, BLEU scores, and clinical relevance assessments.",
+    languages: [
+      'Python'
+    ],
+    redirect: "https://github.com/NightfuryEquinn/Med-VQA-AML"
+  },
+  {
+    id: 9,
+    title: "Malaysian Sign Language",
+    logo: "malaysian-sign.png",
+    description: "An intelligent Malaysian Sign Language (MSL) recognition system designed to facilitate communication accessibility for the deaf and hard-of-hearing community. Utilizing state-of-the-art deep learning models and computer vision techniques, the system performs real-time gesture detection and classification of Malaysian Sign Language symbols. The project incorporates convolutional neural networks (CNN-LSTMs) for feature extraction from hand gestures captured via webcam, with preprocessing pipelines for robust recognition under varying lighting conditions and backgrounds. This initiative aims to bridge communication barriers and promote inclusivity through technology-driven solutions.",
+    languages: [
+      "Python"
+    ],
+    redirect: "https://github.com/NightfuryEquinn/Malaysian-Sign-Language"
   }
 ]
