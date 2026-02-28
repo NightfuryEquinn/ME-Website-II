@@ -37,9 +37,9 @@ export const certification: CertificationProps[] = [
   },
   {
     id: 5,
-    title: "Cambridge English Entry Level Certificate in ESOL International (Entry 2) Advanced",
+    title: "Cambridge English Level 1 Certificate in ESOL International (First)",
     issuedBy: "Cambridge University Press & Assessment English",
-    issuedOn: "December 2025",
+    issuedOn: "June 2025",
     expiredOn: "No Expiration"
   }
 ]
